@@ -1,0 +1,143 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Payment - jteller-spring</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">jteller-spring</a>&nbsp;/&nbsp;<a href="../index.html">com.sabrapay.webflux.payment</a>&nbsp;/&nbsp;<a href="./index.html">Payment</a><br/>
+<br/>
+<h1>Payment</h1>
+<code><span class="identifier">@Table</span><span class="symbol">(</span>"payment"<span class="symbol">)</span> <span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Payment</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<code><span class="identifier">Payment</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span></code><br/>
+<code><span class="identifier">Payment</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/kuditelId">kuditelId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/accountNumber">accountNumber</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/description">description</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/amount">amount</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html"><span class="identifier">BigDecimal</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/actualAmount">actualAmount</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html"><span class="identifier">BigDecimal</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/fees">fees</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/expiryMonth">expiryMonth</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/expiryYear">expiryYear</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/holderName">holderName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/merchantId">merchantId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/stan">stan</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/util/Date.html"><span class="identifier">Date</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/transactionId">transactionId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/responseCode">responseCode</span><span class="symbol">:</span>&nbsp;<a href="../-response-code/index.html"><span class="identifier">ResponseCode</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/responseMessage">responseMessage</span><span class="symbol">:</span>&nbsp;<a href="../-response-message/index.html"><span class="identifier">ResponseMessage</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.payment.Payment$<init>(kotlin.Long, kotlin.Long, kotlin.String, kotlin.String, java.math.BigDecimal, java.math.BigDecimal, kotlin.Long, kotlin.Int, kotlin.Int, kotlin.String, kotlin.Long, java.util.Date, kotlin.String, com.sabrapay.webflux.payment.ResponseCode, com.sabrapay.webflux.payment.ResponseMessage, kotlin.String)/responseUrl">responseUrl</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="account-number.html">accountNumber</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">accountNumber</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="actual-amount.html">actualAmount</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">actualAmount</span><span class="symbol">: </span><a href="https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html"><span class="identifier">BigDecimal</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="amount.html">amount</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">amount</span><span class="symbol">: </span><a href="https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html"><span class="identifier">BigDecimal</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="description.html">description</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">description</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="expiry-month.html">expiryMonth</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">expiryMonth</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="expiry-year.html">expiryYear</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">expiryYear</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="fees.html">fees</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">fees</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="holder-name.html">holderName</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">holderName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="id.html">id</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">id</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="kuditel-id.html">kuditelId</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">kuditelId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="merchant-id.html">merchantId</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">merchantId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="response-code.html">responseCode</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">responseCode</span><span class="symbol">: </span><a href="../-response-code/index.html"><span class="identifier">ResponseCode</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="response-message.html">responseMessage</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">responseMessage</span><span class="symbol">: </span><a href="../-response-message/index.html"><span class="identifier">ResponseMessage</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="response-url.html">responseUrl</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">responseUrl</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="stan.html">stan</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">stan</span><span class="symbol">: </span><a href="https://docs.oracle.com/javase/6/docs/api/java/util/Date.html"><span class="identifier">Date</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="transaction-id.html">transactionId</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">transactionId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

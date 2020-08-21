@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>MerchantController - jteller-spring</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">jteller-spring</a>&nbsp;/&nbsp;<a href="../index.html">com.sabrapay.webflux.merchant</a>&nbsp;/&nbsp;<a href="./index.html">MerchantController</a><br/>
+<br/>
+<h1>MerchantController</h1>
+<code><span class="identifier">@CrossOrigin</span><span class="symbol">(</span>["*", "http://localhost:8088"]<span class="symbol">, </span>3600<span class="symbol">)</span> <span class="identifier">@RestController</span> <span class="identifier">@RequestMapping</span><span class="symbol">(</span>["/merchants"]<span class="symbol">)</span> <span class="keyword">class </span><span class="identifier">MerchantController</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<code><span class="identifier">MerchantController</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="find-all.html">findAll</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">findAll</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Flux</span><span class="symbol">&lt;</span><a href="../-merchant/index.html"><span class="identifier">Merchant</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="find-by-email.html">findByEmail</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">findByEmail</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.merchant.MerchantController$findByEmail(kotlin.String)/email">email</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Mono</span><span class="symbol">&lt;</span><a href="../-merchant/index.html"><span class="identifier">Merchant</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="find-by-registered-name.html">findByRegisteredName</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">findByRegisteredName</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.merchant.MerchantController$findByRegisteredName(kotlin.String)/registeredName">registeredName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Mono</span><span class="symbol">&lt;</span><a href="../-merchant/index.html"><span class="identifier">Merchant</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="login.html">login</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">login</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.merchant.MerchantController$login(com.sabrapay.webflux.user.UserDTO)/merchant">merchant</span><span class="symbol">:</span>&nbsp;<a href="../../com.sabrapay.webflux.user/-user-d-t-o/index.html"><span class="identifier">UserDTO</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">ResponseEntity</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

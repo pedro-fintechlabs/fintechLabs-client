@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Audit - jteller-spring</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">jteller-spring</a>&nbsp;/&nbsp;<a href="../index.html">com.sabrapay.webflux.audit</a>&nbsp;/&nbsp;<a href="./index.html">Audit</a><br/>
+<br/>
+<h1>Audit</h1>
+<code><span class="identifier">@Table</span><span class="symbol">(</span>"audit"<span class="symbol">)</span> <span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Audit</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<code><span class="identifier">Audit</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span></code><br/>
+<code><span class="identifier">Audit</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/userType">userType</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/userId">userId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/event">event</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/auditable">auditable</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/oldValues">oldValues</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/newValues">newValues</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/url">url</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/ipAddress">ipAddress</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/userAgent">userAgent</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/tags">tags</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.audit.Audit$<init>(kotlin.Long, kotlin.String, kotlin.Long, kotlin.String, kotlin.Boolean, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, java.util.Date)/timeStamp">timeStamp</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/util/Date.html"><span class="identifier">Date</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="auditable.html">auditable</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">auditable</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="event.html">event</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">event</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="id.html">id</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">id</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="ip-address.html">ipAddress</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">ipAddress</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="new-values.html">newValues</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">newValues</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="old-values.html">oldValues</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">oldValues</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="tags.html">tags</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">tags</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="time-stamp.html">timeStamp</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">timeStamp</span><span class="symbol">: </span><a href="https://docs.oracle.com/javase/6/docs/api/java/util/Date.html"><span class="identifier">Date</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="url.html">url</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">url</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="user-agent.html">userAgent</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">userAgent</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="user-id.html">userId</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">userId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="user-type.html">userType</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">userType</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,210 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>User - jteller-spring</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">jteller-spring</a>&nbsp;/&nbsp;<a href="../index.html">com.sabrapay.webflux.user</a>&nbsp;/&nbsp;<a href="./index.html">User</a><br/>
+<br/>
+<h1>User</h1>
+<code><span class="identifier">@Table</span><span class="symbol">(</span>"person"<span class="symbol">)</span> <span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">User</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">UserDetails</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<code><span class="identifier">User</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.String)/email">email</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span></code><br/>
+<code><span class="identifier">User</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/firstName">firstName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/lastName">lastName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/email">email</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/thePassword">thePassword</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/enabled">enabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/accountNonExpired">accountNonExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/accountNonLocked">accountNonLocked</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/credentialsNonExpired">credentialsNonExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="com.sabrapay.webflux.user.User$<init>(kotlin.Long, kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.Boolean, kotlin.String)/roles">roles</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="account-non-expired.html">accountNonExpired</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">accountNonExpired</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="account-non-locked.html">accountNonLocked</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">accountNonLocked</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="credentials-non-expired.html">credentialsNonExpired</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">credentialsNonExpired</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="email.html">email</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">email</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="enabled.html">enabled</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">enabled</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="first-name.html">firstName</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">firstName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="id.html">id</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">id</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="last-name.html">lastName</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">lastName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="roles.html">roles</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">roles</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="the-password.html">thePassword</a></h4>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">thePassword</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="get-authorities.html">getAuthorities</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">getAuthorities</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/index.html"><span class="identifier">Collection</span></a><span class="symbol">&lt;</span><span class="identifier">GrantedAuthority</span><span class="symbol">?</span><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-password.html">getPassword</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">getPassword</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-username.html">getUsername</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">getUsername</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="has-role.html">hasRole</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">hasRole</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$hasRole(com.sabrapay.webflux.user.Role)/role">role</span><span class="symbol">:</span>&nbsp;<a href="../-role/index.html"><span class="identifier">Role</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">hasRole</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$hasRole(kotlin.String)/role">role</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-account-non-expired.html">isAccountNonExpired</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">isAccountNonExpired</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-account-non-locked.html">isAccountNonLocked</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">isAccountNonLocked</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-credentials-non-expired.html">isCredentialsNonExpired</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">isCredentialsNonExpired</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="is-enabled.html">isEnabled</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">isEnabled</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="roles-as-list.html">rolesAsList</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">rolesAsList</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../-role/index.html"><span class="identifier">Role</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="set-password.html">setPassword</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setPassword</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$setPassword(kotlin.String)/password">password</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="set-username.html">setUsername</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setUsername</span><span class="symbol">(</span><span class="identifier" id="com.sabrapay.webflux.user.User$setUsername(kotlin.String)/userName">userName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../../com.sabrapay.webflux.admin/-admin/index.html">Admin</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Admin</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">User</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../../com.sabrapay.webflux.agent/-agent/index.html">Agent</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Agent</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">User</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../../com.sabrapay.webflux.merchant/-merchant/index.html">Merchant</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">Merchant</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">User</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
